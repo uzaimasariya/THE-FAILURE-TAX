@@ -51,20 +51,26 @@ Explore the live dashboard:
 
 **[Open THE FAILURE TAX Dashboard](https://uzaimasariya-the-failure-tax-the-failure-tax-deployapp-vdtgzc.streamlit.app/)**
 
-### Executive Overview
-![Executive Overview](screenshots/executive-overview.png)
+## Dashboard Screenshots
 
-### Reliability Intelligence
-![Reliability Intelligence](screenshots/reliability-intelligence.png)
+### Screenshot 1
+![Dashboard Screenshot 1](THE_FAILURE_TAX_deploy/screenshots/Screenshot%202026-11-15%20193849.png)
 
-### Failure Tax Analysis
-![Failure Tax](screenshots/failure-tax.png)
+### Screenshot 2
+![Dashboard Screenshot 2](THE_FAILURE_TAX_deploy/screenshots/Screenshot%202026-11-15%20193912.png)
 
-### Investment Simulator
-![Investment Simulator](screenshots/investment-simulator.png)
+### Screenshot 3
+![Dashboard Screenshot 3](THE_FAILURE_TAX_deploy/screenshots/Screenshot%202026-11-15%20194011.png)
 
-### Machine Learning Intelligence
-![ML Intelligence](screenshots/ml-intelligence.png)
+### Screenshot 4
+![Dashboard Screenshot 4](THE_FAILURE_TAX_deploy/screenshots/Screenshot%202026-11-15%20194038.png)
+
+### Screenshot 5
+![Dashboard Screenshot 5](THE_FAILURE_TAX_deploy/screenshots/Screenshot%202026-11-15%20194055.png)
+
+### Screenshot 6
+![Dashboard Screenshot 6](THE_FAILURE_TAX_deploy/screenshots/Screenshot%202026-11-15%20194116.png)
+
 
 ## 4. Key Features
 
