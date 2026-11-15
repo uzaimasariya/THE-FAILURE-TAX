@@ -49,35 +49,42 @@ THE FAILURE TAX brings these dimensions together into one explainable decision-s
 
 Explore the live dashboard:
 
-**[Open THE FAILURE TAX Dashboard](https://uzaimasariya-the-failure-tax-the-failure-tax-deployapp-vdtgzc.streamlit.app/)**
+**[🚀 Open THE FAILURE TAX Dashboard](https://uzaimasariya-the-failure-tax-the-failure-tax-deployapp-vdtgzc.streamlit.app/)**
 
-## Dashboard Screenshots
+## 4. Dashboard Screenshots
 
 ### Screenshot 1
-![Dashboard Screenshot 1](THE_FAILURE_TAX_deploy/screenshots/Screenshot%202026-11-15%20193849.png)
+
+![Dashboard Screenshot 1](screenshots/Screenshot%202026-11-15%20193849.png)
 
 ### Screenshot 2
-![Dashboard Screenshot 2](THE_FAILURE_TAX_deploy/screenshots/Screenshot%202026-11-15%20193912.png)
+
+![Dashboard Screenshot 2](screenshots/Screenshot%202026-11-15%20193912.png)
 
 ### Screenshot 3
-![Dashboard Screenshot 3](THE_FAILURE_TAX_deploy/screenshots/Screenshot%202026-11-15%20194011.png)
+
+![Dashboard Screenshot 3](screenshots/Screenshot%202026-11-15%20194011.png)
 
 ### Screenshot 4
-![Dashboard Screenshot 4](THE_FAILURE_TAX_deploy/screenshots/Screenshot%202026-11-15%20194038.png)
+
+![Dashboard Screenshot 4](screenshots/Screenshot%202026-11-15%20194038.png)
 
 ### Screenshot 5
-![Dashboard Screenshot 5](THE_FAILURE_TAX_deploy/screenshots/Screenshot%202026-11-15%20194055.png)
+
+![Dashboard Screenshot 5](screenshots/Screenshot%202026-11-15%20194055.png)
 
 ### Screenshot 6
-![Dashboard Screenshot 6](THE_FAILURE_TAX_deploy/screenshots/Screenshot%202026-11-15%20194116.png)
 
+![Dashboard Screenshot 6](screenshots/Screenshot%202026-11-15%20194116.png)
 
-## 4. Key Features
+## 5. Key Features
 
-### 4.1 Executive Overview
+### 5.1 Executive Overview
+
 Provides a network-wide summary of operational performance, completed swaps, failed attempts, revenue and reliability indicators.
 
-### 4.2 Reliability Debt Index (RDI)
+### 5.2 Reliability Debt Index (RDI)
+
 Introduces a station-level composite reliability score using:
 
 - Failure rate.
@@ -88,24 +95,29 @@ Introduces a station-level composite reliability score using:
 
 Stations are classified into Low, Moderate, High and Critical risk categories.
 
-### 4.3 Failure Tax Calculator
+### 5.3 Failure Tax Calculator
+
 Estimates the gross revenue exposure associated with failed swapping attempts using historical realized revenue.
 
-### 4.4 Investment Decision Simulator
+### 5.4 Investment Decision Simulator
+
 Combines station reliability and financial exposure to prioritize stations for operational interventions.
 
 Evaluates conservative, moderate and aggressive failure-reduction scenarios.
 
-### 4.5 Rider Intelligence
+### 5.5 Rider Intelligence
+
 Analyzes rider activity and subsequent return behavior across different failure-exposure groups.
 
-### 4.6 Battery and Supplier Intelligence
+### 5.6 Battery and Supplier Intelligence
+
 Examines battery health, age, supplier and manufacturing-lot associations with operational failures.
 
-### 4.7 Machine Learning Intelligence
+### 5.7 Machine Learning Intelligence
+
 Compares Logistic Regression and Random Forest models for failure classification and evaluates their performance.
 
-## 5. System Architecture
+## 6. System Architecture
 
 ```mermaid
 flowchart TD
@@ -134,7 +146,7 @@ flowchart TD
     N --> O["Interactive Business Intelligence"]
 ```
 
-## 6. Technology Stack
+## 7. Technology Stack
 
 | Category | Technologies |
 |---|---|
@@ -146,7 +158,7 @@ flowchart TD
 | Dashboard | Streamlit |
 | Development | Google Colab, GitHub |
 
-## 7. Dataset
+## 8. Dataset
 
 The project analyzes EV battery-swapping operational data from multiple interconnected datasets:
 
@@ -163,7 +175,7 @@ Approximately 3.8 million non-test event records were analyzed.
 
 Data cleaning, validation, timestamp correction and entity matching were performed before analysis.
 
-## 8. Key Analytical Findings
+## 9. Key Analytical Findings
 
 The analysis produced several important findings:
 
@@ -176,16 +188,16 @@ The analysis produced several important findings:
 
 These are analytical estimates and observed associations, not proof of causation or confirmed financial losses.
 
-## 9. Machine Learning
+## 10. Machine Learning
 
 The project explores binary classification of successful and failed battery-swapping attempts.
 
-Models evaluated:
+**Models evaluated:**
 
 - Logistic Regression.
 - Random Forest.
 
-Evaluation metrics:
+**Evaluation metrics:**
 
 - Accuracy.
 - Precision.
@@ -196,70 +208,6 @@ Evaluation metrics:
 
 The experiments highlight the importance of evaluating feature timing and potential data leakage before treating a model as an operational early-warning system.
 
-## 10. Methodology
+## 11. Methodology
 
 1. Data ingestion and exploration.
-2. Data quality assessment.
-3. Timestamp correction and validation.
-4. Large-scale analytical processing using DuckDB.
-5. Network and station-level performance analysis.
-6. Reliability Debt Index calculation.
-7. Rider and battery intelligence.
-8. Financial exposure estimation.
-9. Investment scenario simulation.
-10. Machine-learning experiments.
-11. Interactive Streamlit dashboard development.
-
-## 11. Important Limitations
-
-- Estimated gross revenue exposure is not confirmed lost revenue or profit.
-- Observed relationships do not establish causation.
-- Battery-lot associations do not establish manufacturing defects.
-- Rider return behavior may be influenced by usage-frequency differences.
-- Machine-learning experiments are exploratory and require further temporal validation.
-- Investment scenarios depend on assumed intervention effectiveness and costs.
-
-## 12. Run Locally
-
-### Clone the repository
-
-```bash
-git clone https://github.com/uzaimasariya/THE-FAILURE-TAX.git
-cd THE-FAILURE-TAX
-```
-
-### Install dependencies
-
-```bash
-pip install -r THE_FAILURE_TAX_deploy/requirements.txt
-```
-
-### Run the application
-
-```bash
-streamlit run THE_FAILURE_TAX_deploy/app.py
-```
-
-## 13. Future Scope
-
-- Real-time station reliability monitoring.
-- Predictive battery stockout alerts.
-- Explainable machine-learning models.
-- Integration with live EV swapping infrastructure.
-- Automated station-level intervention recommendations.
-- Cost-benefit optimization for reliability investments.
-
-## 14. Project Objective
-
-THE FAILURE TAX aims to transform operational failure data into explainable reliability intelligence and financially informed decisions.
-
-It connects three essential dimensions:
-
-**Operational Reliability → Financial Impact → Investment Decisions**
-
----
-
-<p align="center">
-  <strong>THE FAILURE TAX</strong><br/>
-  Built with Python, DuckDB, Scikit-learn, Plotly and Streamlit.
-</p>
